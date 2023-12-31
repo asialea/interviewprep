@@ -14,7 +14,7 @@ package main
  * }
  */
 
-// Time complexity O(1)  space complexity O(n)
+// Time complexity O(n)  space complexity O(1)
 func deleteMiddle(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return nil
